@@ -36,3 +36,37 @@ footer a img{position: absolute; width:50px;height:50px;left:50%;margin-left:-25
 
 .madeBy{font-size:20px;position:absolute;left:50%;margin-left:-70px;color:white;margin-top:120px;}
 
+@media all and (max-width: 320px) {
+    
+}
+@media all and (min-width: 321px) and (max-width: 768px) {
+    .menu{float:right;margin-top:15px;padding-right:30px;}
+    .menu li{float:left;margin-left:15px;}
+
+    .aboutImg{width:100%;height:300px}
+    .aboutContents ul li{margin-bottom:5px;font-size:9px}
+    .aboutContents{margin:30px 0 30px 40px;}
+    .first{margin-left:-20px;font-weight:bold;font-size:24px;padding-top:20px;padding-bottom:10px;}
+
+
+
+    .portfolioImg{width:100%;height:300px;}
+    .portBox{padding:10px;}
+    .portBox {float:left;margin-left:10px}
+    .portBox li{float:left;width:42%;padding:10px;position:relative}
+    .portBox li img{width:100%}
+    .portBox li a{position:absolute;top:5%;color:transparent;left:5%;font-size:24px;padding:40px 50px}
+
+
+
+    footer{position:relative;clear:both;width:100%;height:100px;background-color:#30427d;margin-top:120px;}
+    
+    footer a img{position: absolute; width:30px;height:30px;left:50%;margin-left:-15px;padding-top:20px}
+    
+    .madeBy{font-size:10px;position:absolute;left:50%;margin-left:-40px;color:white;margin-top:60px;}
+    
+
+}
+@media all and (min-width: 769px) {
+      
+}
